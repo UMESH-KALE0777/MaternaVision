@@ -1,0 +1,34 @@
+# Dataset - too large for GitHub
+data/raw/training_set/
+data/raw/test_set/
+data/raw/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+.env
+venv/
+env/
+
+# Model weights
+experiments/**/*.pth
+experiments/**/*.pt
+*.ckpt
+
+# Node
+node_modules/
+.next/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+wandb/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
