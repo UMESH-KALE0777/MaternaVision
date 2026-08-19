@@ -149,5 +149,6 @@ MIT License — free to use for academic and research purposes.
 ## 🏥 Disclaimer
 MaternaVision is a research project developed for academic purposes. 
 It is not a certified medical device and should not be used 
+as a substitute for professional clinical judgement.
 as a substitute for professional clinical judgement...
 
