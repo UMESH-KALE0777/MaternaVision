@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import UploadSection from '../Components/UploadSection';
+import React, { useState } from 'react';
+import UploadSection from '../components/UploadSection';
 
 const mockResults = {
   bpd: { value: 45.2, uncertainty: 1.0 },
@@ -65,13 +65,13 @@ export default function Home() {
                   AI-Powered Precision for Fetal Biometry
                 </h2>
                 <p className="text-lg text-gray-600 mb-8">
-                  Enhancing clinical workflows with automated BPD/OFD measurements and ensemble model integrity. 
+                  Enhancing clinical workflows with automated BPD/OFD measurements and ensemble model integrity.
                   MaternaVision provides objective, instrument-grade analysis for prenatal diagnostics.
                 </p>
               </div>
 
               {/* Upload Section */}
-              <UploadSection 
+              <UploadSection
                 onFileSelect={handleFileSelect}
                 selectedFile={file}
                 preview={preview}
@@ -81,8 +81,8 @@ export default function Home() {
               {/* Analyze Button */}
               {file && preview && (
                 <div className="mt-8 flex justify-center">
-                  <button 
-                    onClick={handleAnalyze} 
+                  <button
+                    onClick={handleAnalyze}
                     className="clinical-button text-lg px-8 py-3"
                   >
                     🔍 Start New Scan
@@ -236,7 +236,7 @@ export default function Home() {
               {/* Disclaimer */}
               <div className="mt-8 p-4 bg-amber-50 border border-amber-200 rounded-lg">
                 <p className="text-sm text-amber-800">
-                  <strong>⚠️ Disclaimer:</strong> AI-assisted result. Clinical review required. 
+                  <strong>⚠️ Disclaimer:</strong> AI-assisted result. Clinical review required.
                   This analysis is intended to support clinical decision-making and must be reviewed by a qualified sonographer or clinician.
                 </p>
               </div>
