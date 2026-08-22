@@ -1,28 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Meta Tags for SEO & Mobile -->
+    <!-- ====== META TAGS ====== -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MaternaVision - AI-Powered Clinical Platform">
-
-    <!-- Google Fonts - Inter Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="/src/index.css">
-
-    <!-- Title & Theme -->
-    <title>MaternaVisio </title>
+    <meta name="description" content="MaternaVision - AI-Powered Clinical Platform for Fetal Biometry Estimation. Automated, objective ultrasound analysis for prenatal diagnostics.">
+    <meta name="keywords" content="fetal biometry, ultrasound AI, prenatal diagnosis, obstetrics, medical imaging, clinical AI">
     <meta name="theme-color" content="#1a3a52">
+    <meta name="author" content="MaternaVision Systems">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="MaternaVision - Clinical AI Platform">
+    <meta property="og:description" content="AI-powered precision for fetal biometry estimation">
+    <meta property="og:type" content="website">
+    
+    <!-- ====== TITLE ====== -->
+    <title>MaternaVision - AI-Powered Fetal Biometry Estimation Platform</title>
+    
+    <!-- ====== FONTS ====== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- ====== FAVICON ====== -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231a3a52' width='100' height='100' rx='20'/><text x='50' y='70' font-size='60' font-weight='700' fill='white' text-anchor='middle' font-family='Inter'>M</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%231a3a52' width='180' height='180' rx='40'/><text x='90' y='125' font-size='100' font-weight='700' fill='white' text-anchor='middle' font-family='Inter'>M</text></svg>">
+    
+    <!-- ====== STYLESHEETS ====== -->
+    <link rel="stylesheet" href="/src/index.css">
+    
+    <!-- ====== PRELOAD RESOURCES ====== -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style">
+    
+    <!-- ====== ANALYTICS (Optional) ====== -->
+    <!-- Remove or replace with your analytics service -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
+    
+    <!-- ====== STRUCTURED DATA (Schema.org) ====== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "MaternaVision",
+      "description": "AI-powered clinical platform for fetal biometry estimation from ultrasound images",
+      "url": "https://maternavision.com",
+      "applicationCategory": "MedicalApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "MaternaVision Systems",
+        "url": "https://maternavision.com"
+      },
+      "screenshot": "https://maternavision.com/screenshot.png",
+      "softwareVersion": "2.4.1",
+      "releaseNotes": "Clinical-grade fetal biometry estimation with dual-model architecture"
+    }
+    </script>
 </head>
-
 <body>
-    <!-- React App Root -->
+    <!-- ====== MAIN APP ROOT ====== -->
     <div id="root"></div>
+    
+    <!-- ====== REACT APP ENTRY POINT ====== -->
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- ====== NOSCRIPT FALLBACK ====== -->
+    <noscript>
+        <div style="
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1a3a52 0%, #2563eb 100%);
+            font-family: Inter, system-ui, -apple-system, sans-serif;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        ">
+            <div>
+                <h1 style="font-size: 28px; margin-bottom: 16px;">MaternaVision</h1>
+                <p style="font-size: 16px; margin-bottom: 24px;">JavaScript is required to run this application.</p>
+                <p style="font-size: 14px; opacity: 0.8;">Please enable JavaScript in your browser settings and reload the page.</p>
+            </div>
+        </div>
+    </noscript>
 </body>
-
 </html>
